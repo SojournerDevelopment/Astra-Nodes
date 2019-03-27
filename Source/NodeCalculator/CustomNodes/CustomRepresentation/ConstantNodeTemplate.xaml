@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="NodeCalculator.CustomNodes.CustomRepresentation.ConstantNodeTemplate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NodeCalculator.CustomNodes.CustomRepresentation"
+             mc:Ignorable="d" Width="80" Height="50"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Border BorderBrush="#FF0BFF85" BorderThickness="1" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="80" CornerRadius="3" Background="#FF252525">
+            <Label Name="Title" Content="Constant" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF0BFF85"/>
+        </Border>
+
+    </Grid>
+</UserControl>

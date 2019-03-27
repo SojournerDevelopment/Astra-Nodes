@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstraNodes", "AstraNodes\AstraNodes.csproj", "{A7030044-075C-4625-AB66-1835F4956AC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{1940C87B-F3B0-468A-A747-81C560371D35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeCalculator", "NodeCalculator\NodeCalculator.csproj", "{B7B8E841-2763-48E5-B31C-2349B609DD0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7030044-075C-4625-AB66-1835F4956AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7030044-075C-4625-AB66-1835F4956AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7030044-075C-4625-AB66-1835F4956AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7030044-075C-4625-AB66-1835F4956AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B8E841-2763-48E5-B31C-2349B609DD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B8E841-2763-48E5-B31C-2349B609DD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B8E841-2763-48E5-B31C-2349B609DD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B8E841-2763-48E5-B31C-2349B609DD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7B8E841-2763-48E5-B31C-2349B609DD0B} = {1940C87B-F3B0-468A-A747-81C560371D35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FEAFE24-042E-4A23-AC5B-FD129D282526}
+	EndGlobalSection
+EndGlobal
