@@ -62,7 +62,7 @@ namespace AstraNodes
         public event ParentChanged NodeParentChanged;
 
         /// <summary>
-        /// Creates a default instance of the this
+        /// Creates a default instance of the Node
         /// </summary>
         /// <returns>UIElement default Instance</returns>
         public UIElement CreateDefaultNode()
